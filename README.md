@@ -1,18 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React ( Using Functional Component )
 
-## Available Scripts
+1. create a field "Number". 
 
-In the project directory, you can run:
+User will enter a number between 1-12 (React) 
 
-### `npm start`
+for example, I enter 5 my result will 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Month Value Copy
 
-### `npm test`
+Jan [input for enter value] [copy button]
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Feb [input for enter value] [copy button]
+
+Mar [input for enter value] [copy button]
+
+Apr [input for enter value] [copy button]
+
+May [input for enter value] [copy button]
+
+
+Here logic is,
+
+when I enter any value, copy button should enable, otherwise all button will be disabled by
+default.
+
+when I click on copy it should copy same values in next all months, not previous one. 
+
+so if I enter
+value 50 in Feb then Mar, Apr, May will have value 50.
